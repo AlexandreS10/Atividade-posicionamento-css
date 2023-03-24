@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightgray;
+  height: 100vh;
+  width: 100vw;
+}
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  position: absolute;
+}
+.right {
+  bottom: 0;
+  right: 0;
+  float: right;
+}
+.top2 {
+  top: 0px;
+  left: 102px;
+}
+.top3 {
+  top: 0px;
+  left: 204px;
+}
+.top4 {
+  top: 102px;
+  left: 0px;
+}
+.top5 {
+  top: 102px;
+  left: 102px;
+}
+.top6 {
+  top: 204px;
+  left: 0px;
+}
+.bot2 {
+  bottom: 0px;
+  right: 102px;
+}
+.bot3 {
+  bottom: 0px;
+  right: 204px;
+}
+.bot4 {
+  bottom: 102px;
+  right: 0px;
+}
+.bot5 {
+  bottom: 102px;
+  right: 102px;
+}
+.bot6 {
+  bottom: 204px;
+  right: 0px;
+}
